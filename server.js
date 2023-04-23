@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost/blog-app', {
+mongoose.connect('mongodb+srv://sandbox.fmkdb.mongodb.net/myFirstDatabase', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
